@@ -72,7 +72,6 @@ export function auth(req: NextRequest, modelProvider: ModelProvider) {
   } else {
     console.log("[Auth] use user api key");
   }
-
   return {
     error: false,
   };
