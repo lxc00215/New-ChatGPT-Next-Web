@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           NextChat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          API_KEYS由<a src="https://api.leebay.asia">《金石AI》</a>提供
+          API_KEYS由<a href="https://api.leebay.asia">《金石AI》</a>提供
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
